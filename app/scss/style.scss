@@ -3,7 +3,6 @@
 $mainColor: #0046AD;
 
 .navbarBanner {
-  color: #000000;
   background-color: $mainColor;
 }
 
@@ -11,3 +10,23 @@ $mainColor: #0046AD;
   height: 50px;
   width: 100px;
 }
+
+.nav {
+  justify-content: flex-end;
+}
+
+.nav.navbar-nav.navbar-right li a {
+  color: #FFFFFF;
+  font-weight: bold;
+}
+
+.carousel-inner img {
+  height: 600px;
+}
+
+.carousel-item {
+  display: none;
+  position: relative;
+  transition: (.6s ease-in-out left);
+}
+
