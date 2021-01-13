@@ -1,5 +1,13 @@
-body {
-  display: block;
-  color: red;
-  border: 1px;
+@import './app/css/style.css';
+
+$mainColor: #0046AD;
+
+.navbarBanner {
+  color: #000000;
+  background-color: $mainColor;
+}
+
+.navbar-brand img {
+  height: 50px;
+  width: 100px;
 }
