@@ -1,4 +1,9 @@
 @import './app/css/style.css';
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+  font-family: 'Montserrat', sans-serif;
+}
 
 $mainColor: #0046AD;
 
@@ -7,8 +12,8 @@ $mainColor: #0046AD;
 }
 
 .navbar-brand img {
-  height: 50px;
-  width: 100px;
+  height: 75px;
+  width: 150px;
 }
 
 .nav {
@@ -20,6 +25,15 @@ $mainColor: #0046AD;
   font-weight: bold;
 }
 
+.arrowDown {
+  display: flex;
+  justify-content: center;
+}
+
+.homepageCarousel {
+  padding-bottom: 20px;
+}
+
 .carousel-inner img {
   height: 600px;
 }
@@ -27,6 +41,71 @@ $mainColor: #0046AD;
 .carousel-item {
   display: none;
   position: relative;
-  transition: (.6s ease-in-out left);
 }
 
+.aboutPositioning {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 0;
+  margin-bottom: auto;
+}
+
+.aboutTitle {
+  padding: 0 0 20px 40px;
+  display: block;
+
+  h1 {
+    font-weight: bold;
+    text-decoration: underline;
+    text-decoration-color: #f4743b;
+  }
+}
+
+#aboutQfi {
+  margin: 50px 0 100px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.aboutDescription {
+  width: 700px;
+  display: block;
+  right: 0;
+  padding: 10px 0 10px 40px;
+
+  p {
+    line-height: 2;
+  }
+}
+
+.col {
+  align-self: center;
+}
+
+.aboutImage img {
+  height: 400px;
+  padding-right: 30px;
+}
+
+.col .aboutImage {
+  display: flex;
+  align-self: flex-end;
+}
+
+.contactFooter {
+  padding: 20px 0 50px 0;
+  background-color: #E8E7E7;
+}
+
+.contactFooter .col {
+  text-align: center;
+  align-self: center;
+  border-left: 2px black;
+  border-right: 2px black;
+  font-weight: bold;
+}
+
+.contactTitles h3 {
+  text-decoration: underline;
+  text-decoration-color: #f4743b;
+}
