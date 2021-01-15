@@ -16,8 +16,9 @@ $mainColor: #0046AD;
   width: 150px;
 }
 
-.nav {
+.navbar-expand-lg .navbar-collapse {
   justify-content: flex-end;
+  padding-right: 20px;
 }
 
 .nav.navbar-nav.navbar-right li a {
@@ -98,7 +99,7 @@ $mainColor: #0046AD;
 }
 
 .contactFooter {
-  padding: 20px 0 50px 0;
+  padding: 20px 0 20px 0;
   background-color: #E8E7E7;
 }
 
@@ -114,6 +115,7 @@ $mainColor: #0046AD;
   text-decoration: underline;
   text-decoration-color: #f4743b;
   font-weight: bold;
+  text-align: center;
 }
 
 .iconsContainer {
@@ -155,4 +157,9 @@ $mainColor: #0046AD;
 
 .corporateAddress p, .englishAddress p {
   width: 200px;
+  font-size: 0.8rem;
+}
+
+.contactInfo h6 {
+  display: block;
 }
