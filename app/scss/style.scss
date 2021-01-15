@@ -25,6 +25,10 @@ $mainColor: #0046AD;
   font-weight: bold;
 }
 
+.nav.navbar-nav.navbar-right li a:hover {
+  color: #f4743b;
+}
+
 .arrowDown {
   display: flex;
   justify-content: center;
@@ -75,6 +79,7 @@ $mainColor: #0046AD;
 
   p {
     line-height: 2;
+    font-size: 1rem;
   }
 }
 
@@ -108,4 +113,9 @@ $mainColor: #0046AD;
 .contactTitles h3 {
   text-decoration: underline;
   text-decoration-color: #f4743b;
+}
+
+.iconsContainer {
+  display: flex;
+  align-self: center;
 }
