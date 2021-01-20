@@ -16,8 +16,9 @@ $mainColor: #0046AD;
   width: 150px;
 }
 
-.nav {
+.navbar-expand-lg .navbar-collapse {
   justify-content: flex-end;
+  padding-right: 20px;
 }
 
 .nav.navbar-nav.navbar-right li a {
@@ -98,7 +99,7 @@ $mainColor: #0046AD;
 }
 
 .contactFooter {
-  padding: 20px 0 50px 0;
+  padding: 20px 0 20px 0;
   background-color: #E8E7E7;
 }
 
@@ -110,14 +111,55 @@ $mainColor: #0046AD;
   font-weight: bold;
 }
 
-.contactTitles h3 {
+.contactTitles h4 {
   text-decoration: underline;
   text-decoration-color: #f4743b;
+  font-weight: bold;
+  text-align: center;
 }
-
 
 .iconsContainer {
   display: flex;
-  align-self: center;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 30px;
 }
 
+.icon {
+  padding: 10px;
+}
+
+.blackLogo img {
+  height: 75px;
+  padding: 20px;
+}
+
+.companyDescription {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+
+  p {
+    font-size: 0.6rem;
+    width: 200px;
+    padding: 10px 20px 20px 20px;
+  }
+}
+
+.sectionList li {
+  list-style-type: none;
+}
+
+.corporateAddress, .englishAddress {
+  display: flex;
+  justify-content: center;
+}
+
+.corporateAddress p, .englishAddress p {
+  width: 200px;
+  font-size: 0.8rem;
+}
+
+.contactInfo h6 {
+  display: block;
+}
